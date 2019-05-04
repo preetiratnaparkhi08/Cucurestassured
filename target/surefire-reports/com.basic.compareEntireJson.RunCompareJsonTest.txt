@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.basic.compareEntireJson.RunCompareJsonTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.478 sec <<< FAILURE!
+Given user compare two json string(Scenario: Test my Delete request)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Unexpected: mobile
+
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:417)
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:394)
+	at com.basic.compareEntireJson.TestCompareJson.user_compare_two_json_string(TestCompareJson.java:32)
+	at ?.Given user compare two json string(com/basic/compareEntireJson/comparejson.feature:5)
+
+Scenario: Test my Delete request  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Unexpected: mobile
+
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:417)
+	at org.skyscreamer.jsonassert.JSONAssert.assertEquals(JSONAssert.java:394)
+	at com.basic.compareEntireJson.TestCompareJson.user_compare_two_json_string(TestCompareJson.java:32)
+	at ?.Given user compare two json string(com/basic/compareEntireJson/comparejson.feature:5)
+

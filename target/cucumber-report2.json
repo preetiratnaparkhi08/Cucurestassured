@@ -1,0 +1,45 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 534186,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RequestSpecificationSD.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test my Get Method",
+        "description": "",
+        "id": "first-rest-assured-test;test-my-get-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1163414332,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the get request",
+            "match": {
+              "location": "RequestSpecificationSD.user_hit_the_get_request()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test",
+    "description": "",
+    "id": "first-rest-assured-test",
+    "keyword": "Feature",
+    "uri": "com/basic/requestSpecifications/GetRequestTesting.feature"
+  }
+]

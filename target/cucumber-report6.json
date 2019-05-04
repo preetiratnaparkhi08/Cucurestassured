@@ -1,0 +1,462 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Test my Get Method55",
+        "description": "",
+        "id": "first-rest-assured-test44;test-my-get-method55",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5298626,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "MyGetWithTagsSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1167662222,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hit the get request",
+            "match": {
+              "location": "MyGetWithTagsSD.user_hit_the_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1660585,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user checks 200 the status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 12
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 163600359,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user checks the count or size",
+            "match": {
+              "location": "MyGetWithTagsSD.user_checks_the_count_or_size()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69013559,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user checks \"albert_park\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "albert_park",
+                  "offset": 13
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_circuitId_value(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103003503,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user checks at path \"MRData.CircuitTable.Circuits.circuitId[0]\" with the \"albert_park\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.CircuitTable.Circuits.circuitId[0]",
+                  "offset": 21
+                },
+                {
+                  "val": "albert_park",
+                  "offset": 74
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_at_path_with_the_value(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Test my Get Method56",
+        "description": "",
+        "id": "first-rest-assured-test44;test-my-get-method56",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79075,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "MyGetWithTagsSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1152803425,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user hit the get request",
+            "match": {
+              "location": "MyGetWithTagsSD.user_hit_the_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241778,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user checks 200 the status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 12
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151037027,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user checks the count or size",
+            "match": {
+              "location": "MyGetWithTagsSD.user_checks_the_count_or_size()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48551212,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user checks \"albert_park\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "albert_park",
+                  "offset": 13
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_circuitId_value(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38713424,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user checks at path \"MRData.CircuitTable.Circuits.circuitId[0]\" with the \"albert_park\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.CircuitTable.Circuits.circuitId[0]",
+                  "offset": 21
+                },
+                {
+                  "val": "albert_park",
+                  "offset": 74
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_at_path_with_the_value(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@Smoke"
+          },
+          {
+            "line": 14,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Test my Get Method58",
+        "description": "",
+        "id": "first-rest-assured-test44;test-my-get-method58",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49493,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "MyGetWithTagsSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 902165986,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user hit the get request",
+            "match": {
+              "location": "MyGetWithTagsSD.user_hit_the_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175786,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user checks 200 the status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 12
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 126337599,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user checks the count or size",
+            "match": {
+              "location": "MyGetWithTagsSD.user_checks_the_count_or_size()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41626702,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user checks \"albert_park\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "albert_park",
+                  "offset": 13
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_circuitId_value(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49056954,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user checks at path \"MRData.CircuitTable.Circuits.circuitId[0]\" with the \"albert_park\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.CircuitTable.Circuits.circuitId[0]",
+                  "offset": 21
+                },
+                {
+                  "val": "albert_park",
+                  "offset": 74
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_at_path_with_the_value(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Test my Get Method59",
+        "description": "",
+        "id": "first-rest-assured-test44;test-my-get-method59",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74524,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "MyGetWithTagsSD.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1093751102,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user hit the get request",
+            "match": {
+              "location": "MyGetWithTagsSD.user_hit_the_get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180907,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user checks 200 the status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 12
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_the_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108679302,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user checks the count or size",
+            "match": {
+              "location": "MyGetWithTagsSD.user_checks_the_count_or_size()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43082488,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user checks \"albert_park\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "albert_park",
+                  "offset": 13
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_circuitId_value(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40198224,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user checks at path \"MRData.CircuitTable.Circuits.circuitId[0]\" with the \"albert_park\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MRData.CircuitTable.Circuits.circuitId[0]",
+                  "offset": 21
+                },
+                {
+                  "val": "albert_park",
+                  "offset": 74
+                }
+              ],
+              "location": "MyGetWithTagsSD.user_checks_at_path_with_the_value(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test44",
+    "description": "",
+    "id": "first-rest-assured-test44",
+    "keyword": "Feature",
+    "uri": "GetWithCucumberTags.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Important"
+      }
+    ]
+  }
+]

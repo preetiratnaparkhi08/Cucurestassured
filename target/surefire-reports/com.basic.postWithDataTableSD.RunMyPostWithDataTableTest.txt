@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.basic.postWithDataTableSD.RunMyPostWithDataTableTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.648 sec <<< FAILURE!
+Then user validate followind data(Scenario: Test my POST request test)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.postWithDataTableSD.MyPostWithDataTable.user_validate_followind_data(MyPostWithDataTable.java:75)
+	at ?.Then user validate followind data(PostWithDataTable.feature:6)
+
+Scenario: Test my POST request test  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.basic.postWithDataTableSD.MyPostWithDataTable.user_validate_followind_data(MyPostWithDataTable.java:75)
+	at ?.Then user validate followind data(PostWithDataTable.feature:6)
+

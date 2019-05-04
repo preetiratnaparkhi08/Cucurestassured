@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my Get Method for Google",
+        "description": "",
+        "id": "first-rest-assured-test-for-google;test-my-get-method-for-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139903880,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the get request",
+            "match": {
+              "location": "MyFirstepdef.user_hit_the_get_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120605,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checks the status code",
+            "match": {
+              "location": "MyFirstepdef.user_checks_the_status_code()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test for Google",
+    "description": "",
+    "id": "first-rest-assured-test-for-google",
+    "keyword": "Feature",
+    "uri": "com/basic/FirstFeatureTestGoogle/FeatureGoogle.feature"
+  }
+]

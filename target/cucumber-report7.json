@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my Get Method",
+        "description": "",
+        "id": "first-rest-assured-test;test-my-get-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4060725,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user start the rest asured test",
+            "match": {
+              "location": "MyParameterFilterStepdef.user_start_the_rest_asured_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 534697642,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hit the get request",
+            "match": {
+              "location": "MyParameterFilterStepdef.user_hit_the_get_request()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test",
+    "description": "",
+    "id": "first-rest-assured-test",
+    "keyword": "Feature",
+    "uri": "com/basic/GetWithParameter/GetRequestTesting.feature"
+  }
+]

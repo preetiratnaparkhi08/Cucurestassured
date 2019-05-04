@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test my POST request test",
+        "description": "",
+        "id": "first-rest-assured-test-post;test-my-post-request-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1569408367,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user hit the post request with \"Tom\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 32
+                }
+              ],
+              "location": "MyPostWithDataTable.user_hit_the_post_request_with_json_data(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1979163,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.basic.postWithDataTableSD.MyPostWithDataTable.user_validate_followind_data(MyPostWithDataTable.java:75)\r\n\tat ✽.Then user validate followind data(PostWithDataTable.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user validate followind data",
+            "match": {
+              "location": "MyPostWithDataTable.user_validate_followind_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "param",
+                  "Value"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "id",
+                  "notNull"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "statusCode",
+                  "200"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "First Rest Assured test POST",
+    "description": "",
+    "id": "first-rest-assured-test-post",
+    "keyword": "Feature",
+    "uri": "PostWithDataTable.feature"
+  }
+]
