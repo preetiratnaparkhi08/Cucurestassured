@@ -11,6 +11,7 @@ import io.restassured.specification.RequestSpecification;
 public class TestHooks {
 	
 	RequestSpecification req;
+	//if there are 2 before give the order it will pick randomly
 	
 	@Before
 	public void testBaseURI(){
